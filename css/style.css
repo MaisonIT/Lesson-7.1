@@ -1,0 +1,82 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Open+Sans+Condensed:ital,wght@1,300&family=Press+Start+2P&display=swap");
+
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+	background: rgba(14, 0, 214, 0.39);
+}
+img {
+	margin: 0 0 20px 250px;
+	width: 500px;
+	height: 500px;
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.main-title,
+.title-story,
+.title-list {
+	margin: 50px 0;
+	font-family: "Press Start 2P", cursive;
+	font-weight: 400;
+	font-size: 70px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: center;
+	text-shadow: 5px 5px wheat;
+}
+.title-list {
+	line-height: 80px;
+	text-decoration: none;
+	border-bottom: 10px solid black;
+}
+
+.block-about {
+	margin: 0 20px 20px 0;
+	box-shadow: 10px -5px 5px 10px rgba(167, 0, 0, 0.623);
+	border-radius: 10px 0 20px 0;
+	background: linear-gradient(90deg, rgba(14, 0, 249, 1) 2%, rgba(198, 0, 0, 1) 49%, rgba(255, 255, 255, 1) 100%);
+	padding: 10px;
+	border: 5px solid black;
+}
+.block-story {
+	font-weight: 900;
+	color: rgb(207, 114, 0);
+	background: url("../img/scroll.png") center no-repeat, url("../img/patern.png");
+	background-attachment: fixed;
+	padding: 10px;
+	margin: 0 0 20px 20px;
+	max-width: 900px;
+	outline: 10px dashed rgba(26, 0, 172, 0.842);
+	max-height: 1000px;
+	overflow: auto;
+}
+.subtitle {
+	background: rgba(0, 0, 0, 0.411);
+	border: 5px dotted rgba(173, 0, 0, 0.658);
+	letter-spacing: 5px;
+	color: rgb(133, 0, 0);
+	font-family: "Kelly Slab", cursive;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.list li {
+	font-size: 16px;
+	padding: 0 0 0 20px;
+	background: url("../img/Vector.svg") 0 0 no-repeat;
+	margin: 0 0 20px 0;
+}
